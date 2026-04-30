@@ -10,7 +10,7 @@ st.set_page_config(page_title="Dashboard Logística RM", layout="wide")
 # --- 1. Carga de datos--
 def load_data():
     # Usamos el dataset que entregaste
-    df = pd.read_excel('dataset_tarea_ind_2.xlsx')
+    df = pd.read_excel('dataset_tarea_ind.xlsx')
     
     # Limpieza express (la misma que ya validamos)
     cols_fix = ['venta_neta', 'lat', 'lng', 'kms_dist', 'lat_cd', 'lng_cd']
