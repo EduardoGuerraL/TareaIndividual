@@ -8,6 +8,7 @@ import plotly.express as px
 st.set_page_config(page_title="Dashboard Logística RM", layout="wide")
 
 # --- 1. Carga de datos--
+@st.cache_data
 def load_data():
     # Usamos el dataset que entregaste
     df = pd.read_excel('dataset_tarea_ind.xlsx')
