@@ -47,7 +47,7 @@ df_filtered = df[
 ]
 
 # --- 3. Layout del Dashboard ---
-st.title("🚚 Dashboard de Red Logística y Ventas")
+st.title("Dashboard de Red Logística y Ventas")
 st.markdown("Analiza el comportamiento de entregas en la Región Metropolitana.")
 
 # Fila 1: KPIs
